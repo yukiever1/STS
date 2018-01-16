@@ -17,7 +17,10 @@ public class AuthorServiceImpl implements AuthorService {
     }
 
     public BookService getBookService() {
-        return bookService;
+    	System.out.println();
+    	return bookService;
+        
+        
     }
 
     public void setBookService(BookService bookService) {
